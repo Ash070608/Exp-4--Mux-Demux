@@ -33,7 +33,6 @@ module demux1to2 (
     assign Y0 = (~S) & D;
     assign Y1 = S & D;
 endmodule
-
 ```
 ## **Testbench Program
 module tb4;
@@ -81,8 +80,6 @@ module tb4;
         #10 $finish;
     end
 endmodule
-
-
 
 ## Truth Table
 
@@ -147,7 +144,8 @@ The 2:1 Multiplexer and 1:2 Demultiplexer were realized using Verilog HDL:
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 
 ## Output
-<img width="1080" height="528" alt="image" src="https://github.com/user-attachments/assets/06db387e-19f3-44e3-8414-94acf1d477de" />
+
+<img width="1080" height="528" alt="WhatsApp Image 2026-11-13 at 08 16 56" src="https://github.com/user-attachments/assets/5c8b386d-fec7-4545-af36-67ee4399b278" />
 
 
 ## Viva-Voce Questions
